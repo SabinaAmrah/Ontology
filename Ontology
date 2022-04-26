@@ -1,0 +1,407 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:37aed42b-48bb-4f6b-8f13-8484b7e86834#"
+     xml:base="urn:webprotege:ontology:37aed42b-48bb-4f6b-8f13-8484b7e86834"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:37aed42b-48bb-4f6b-8f13-8484b7e86834"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R70Ufd5epAtUYb05pEg1m4I -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R70Ufd5epAtUYb05pEg1m4I">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBcAdfDYbdo5VwRo6VXIsVz"/>
+        <rdfs:label xml:lang="en">Business/Economics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R75Jge1yw00muNBuKGgq86n -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R75Jge1yw00muNBuKGgq86n">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBcAdfDYbdo5VwRo6VXIsVz"/>
+        <rdfs:label xml:lang="en">Math</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8N3Y5WJz2QN02vAd7bvBNd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8N3Y5WJz2QN02vAd7bvBNd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8iKq5l0Mb8opTOMhmVaaMA"/>
+        <dc:creator xml:lang="en">George Orwell</dc:creator>
+        <dc:date xml:lang="en">1949</dc:date>
+        <dc:description xml:lang="en">Nineteen Eighty-Four is a dystopian social science fiction novel and cautionary tale written by English writer George Orwell. It was published on 8 June 1949 by Secker &amp; Warburg as Orwell&apos;s ninth and final book completed in his lifetime.</dc:description>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:subject xml:lang="en">Classic</dc:subject>
+        <dc:title xml:lang="en">Nineteen Eighty-Four</dc:title>
+        <dc:type xml:lang="en">Book</dc:type>
+        <rdfs:label xml:lang="en">Nineteen Eighty-Four</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8SqIoaY0X4NkaUULWKb0lF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8SqIoaY0X4NkaUULWKb0lF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDeWrbbtT2zuoD6qlclJKHp"/>
+        <dc:creator xml:lang="en">Sydney Eddison</dc:creator>
+        <dc:date xml:lang="en">2010</dc:date>
+        <dc:description xml:lang="en">Although the garden may beckon as strongly as ever, the tasks involved—pulling weeds, pushing wheelbarrows, digging holes, moving heavy pots—become increasingly difficult, or even impossible, with advancing age. But the idea of giving it up is unthinkable for most gardeners. So what’s the alternative?</dc:description>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:subject xml:lang="en">Home and Garden</dc:subject>
+        <dc:title xml:lang="en">Gardening for a Lifetime: How to Garden Wiser as You Grow Older</dc:title>
+        <dc:type xml:lang="en">Book</dc:type>
+        <rdfs:label xml:lang="en">Gardening for a Lifetime: How to Garden Wiser as You Grow Older</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8iKq5l0Mb8opTOMhmVaaMA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8iKq5l0Mb8opTOMhmVaaMA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCtJP9iFGJ3BFwdKeXwPERk"/>
+        <rdfs:label xml:lang="en">Classic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8wUFA0UwHGs43ZmHTlssCC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8wUFA0UwHGs43ZmHTlssCC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R957inR1f6i3kYHSV2ZOJBP"/>
+        <dc:creator xml:lang="en">David Grann</dc:creator>
+        <dc:date xml:lang="en">2009</dc:date>
+        <dc:description xml:lang="en">The Lost City of Z: A Tale of Deadly Obsession in the Amazon is the debut non-fiction book by American author David Grann. The book was published in 2009 and recounts the activities of the British explorer Percy Fawcett who, in 1925, disappeared with his son in the Amazon while looking for an ancient lost city.</dc:description>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:subject xml:lang="en">Travel</dc:subject>
+        <dc:title xml:lang="en">The Lost City of Z: A Tale of Deadly Obsession in the Amazon</dc:title>
+        <dc:type xml:lang="en">Book</dc:type>
+        <rdfs:label xml:lang="en">The Lost City of Z: A Tale of Deadly Obsession in the Amazon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R957inR1f6i3kYHSV2ZOJBP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R957inR1f6i3kYHSV2ZOJBP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBcAdfDYbdo5VwRo6VXIsVz"/>
+        <rdfs:label xml:lang="en">Travel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBcAdfDYbdo5VwRo6VXIsVz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBcAdfDYbdo5VwRo6VXIsVz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDfej1M3nOSurh7xuJtLyFp"/>
+        <rdfs:label xml:lang="en">Non-Fiction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBdLKwGqncif9HfljYefZ4I -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBdLKwGqncif9HfljYefZ4I">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCtJP9iFGJ3BFwdKeXwPERk"/>
+        <rdfs:label xml:lang="en">Crime</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBlNIRmhv1a7tv4fOAVLjx0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBlNIRmhv1a7tv4fOAVLjx0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCwE2fI56g1LXh5EV0XXIeA"/>
+        <dc:creator xml:lang="en">Khaled Hosseini</dc:creator>
+        <dc:date xml:lang="en">2003</dc:date>
+        <dc:description xml:lang="en">The Kite Runner is the first novel by Afghan-American author Khaled Hosseini. Published in 2003 by Riverhead Books, it tells the story of Amir, a young boy from the Wazir Akbar Khan district of Kabul.</dc:description>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:subject xml:lang="en">Drama</dc:subject>
+        <dc:title xml:lang="en">The Kite Runner</dc:title>
+        <dc:type xml:lang="en">Book</dc:type>
+        <rdfs:label xml:lang="en">The Kite Runner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCF12LtKCAWmhrmhnBOEtbY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCF12LtKCAWmhrmhnBOEtbY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCtJP9iFGJ3BFwdKeXwPERk"/>
+        <rdfs:label xml:lang="en">Fantasy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCLzoSNkPf76TiRraJBlUPN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCLzoSNkPf76TiRraJBlUPN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBdLKwGqncif9HfljYefZ4I"/>
+        <dc:creator xml:lang="en">Agatha Christie</dc:creator>
+        <dc:date xml:lang="en">1934</dc:date>
+        <dc:description xml:lang="en">Murder on the Orient Express is a work of detective fiction by English writer Agatha Christie featuring the Belgian detective Hercule Poirot. It was first published in the United Kingdom by the Collins Crime Club on 1 January 1934.</dc:description>
+        <dc:subject xml:lang="en">Crime</dc:subject>
+        <dc:title xml:lang="en">Murder on the Orient Express</dc:title>
+        <dc:type xml:lang="en">Book</dc:type>
+        <rdfs:label xml:lang="en">Murder on the Orient Express</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCSBrtzfes75idf6BazoOZF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCSBrtzfes75idf6BazoOZF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCF12LtKCAWmhrmhnBOEtbY"/>
+        <dc:creator xml:lang="en">Neil Gaiman</dc:creator>
+        <dc:date xml:lang="en">2001</dc:date>
+        <dc:description xml:lang="en">merican Gods is a fantasy novel by British author Neil Gaiman. The novel is a blend of Americana, fantasy, and various strands of ancient and modern mythology, all centering on the mysterious and taciturn Shadow.</dc:description>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:subject xml:lang="en">Fantasy</dc:subject>
+        <dc:title xml:lang="en">American Gods</dc:title>
+        <dc:type xml:lang="en">Book</dc:type>
+        <rdfs:label xml:lang="en">American Gods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCtJP9iFGJ3BFwdKeXwPERk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCtJP9iFGJ3BFwdKeXwPERk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDfej1M3nOSurh7xuJtLyFp"/>
+        <rdfs:label xml:lang="en">Fiction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCwE2fI56g1LXh5EV0XXIeA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCwE2fI56g1LXh5EV0XXIeA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCtJP9iFGJ3BFwdKeXwPERk"/>
+        <rdfs:label xml:lang="en">Drama</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDQHa9qa2jZKKLYU0X77GC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDQHa9qa2jZKKLYU0X77GC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCtJP9iFGJ3BFwdKeXwPERk"/>
+        <rdfs:label xml:lang="en">Horror</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDdm8FE9ZHUdgFxsa3ihMa9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDdm8FE9ZHUdgFxsa3ihMa9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDQHa9qa2jZKKLYU0X77GC"/>
+        <dc:creator xml:lang="en">Stephen King</dc:creator>
+        <dc:date xml:lang="en">1986</dc:date>
+        <dc:description xml:lang="en">It is a 1986 horror novel by American author Stephen King. It was his 22nd book and his 17th novel written under his own name. The story follows the experiences of seven children as they are terrorized by an evil entity that exploits the fears of its victims to disguise itself while hunting its prey.</dc:description>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:subject xml:lang="en">Horror</dc:subject>
+        <dc:title xml:lang="en">It</dc:title>
+        <dc:type xml:lang="en">Book</dc:type>
+        <rdfs:label xml:lang="en">It</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDeWrbbtT2zuoD6qlclJKHp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDeWrbbtT2zuoD6qlclJKHp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBcAdfDYbdo5VwRo6VXIsVz"/>
+        <rdfs:label xml:lang="en">Home and Garden</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDfej1M3nOSurh7xuJtLyFp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDfej1M3nOSurh7xuJtLyFp">
+        <rdfs:label xml:lang="en">Book</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDk1WZ0sAfmnWJzNtlK0zuS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDk1WZ0sAfmnWJzNtlK0zuS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RTkixBdMsYmCzT2sjAQCXR"/>
+        <dc:creator xml:lang="en">J.B. Turner</dc:creator>
+        <dc:date xml:lang="en">2022</dc:date>
+        <dc:description xml:lang="en">NYPD detective Jack McNeal is used to asking the tough questions. But a late-night visit from the Secret Service lands Jack on the other side of the table—as a suspect in the disappearance of his estranged wife, Caroline, a prominent reporter on the White House beat. When her body is found floating in the Potomac, Jack is overcome by disbelief and despair.
+
+Her death seems eerily similar to the suspicious fatality of a young socialite years before. Is the similarity of the two tragic incidents simply a coincidence, or could it be a sign of a murderous orchestrated plot to protect those in the highest echelons of the American government?
+
+To avenge Caroline’s death, Jack embarks on a journey into the darkest recesses of power. Suspects abound—from haunted special forces soldiers to ex-CIA to the president’s own body man. Along the way, Jack will be forced to decide: Is there a line he won’t cross to expose the killer?</dc:description>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:subject xml:lang="en">Action, Adventure, Thriller, Mystery</dc:subject>
+        <dc:title xml:lang="en">No Way Back</dc:title>
+        <dc:type xml:lang="en">Book</dc:type>
+        <rdfs:label xml:lang="en">No Way Back</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RIe5MTp5rcDW5zqoaDQV1M -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RIe5MTp5rcDW5zqoaDQV1M">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBcAdfDYbdo5VwRo6VXIsVz"/>
+        <rdfs:label xml:lang="en">Philosophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RS7CwHYsd5HYXHOdL7K9Im -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RS7CwHYsd5HYXHOdL7K9Im">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R70Ufd5epAtUYb05pEg1m4I"/>
+        <dc:creator xml:lang="en">James Clear</dc:creator>
+        <dc:description xml:lang="en">The #1 New York Times bestseller. Over 4 million copies sold! Tiny Changes, Remarkable Results. No matter your goals, Atomic Habits offers a proven framework for improving--every day.</dc:description>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:subject xml:lang="en">Business</dc:subject>
+        <dc:title xml:lang="en">Atomic Habits: An Easy &amp; Proven Way to Build Good Habits &amp; Break Bad Ones</dc:title>
+        <dc:type xml:lang="en">Book</dc:type>
+        <rdfs:label xml:lang="en">Atomic Habits: An Easy &amp; Proven Way to Build Good Habits &amp; Break Bad Ones</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RTkixBdMsYmCzT2sjAQCXR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RTkixBdMsYmCzT2sjAQCXR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCtJP9iFGJ3BFwdKeXwPERk"/>
+        <rdfs:label xml:lang="en">Action and Adventure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWQsIItd8d8C75kvsVlaA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWQsIItd8d8C75kvsVlaA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RIe5MTp5rcDW5zqoaDQV1M"/>
+        <dc:creator xml:lang="en">Plato</dc:creator>
+        <dc:date xml:lang="en">375 BC</dc:date>
+        <dc:description xml:lang="en">The Republic is a Socratic dialogue, authored by Plato around 375 BC, concerning justice, the order and character of the just city-state, and the just man.</dc:description>
+        <dc:language xml:lang="en">Greek</dc:language>
+        <dc:subject xml:lang="en">Political philosophy</dc:subject>
+        <dc:title xml:lang="en">Republic</dc:title>
+        <dc:type xml:lang="en">Book</dc:type>
+        <rdfs:label xml:lang="en">Republic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RgbcsNwrikD9XpzyK8Azpd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RgbcsNwrikD9XpzyK8Azpd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBcAdfDYbdo5VwRo6VXIsVz"/>
+        <rdfs:label xml:lang="en">History</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhMYn0UvU2sYfb8ILbZL23 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RhMYn0UvU2sYfb8ILbZL23">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R75Jge1yw00muNBuKGgq86n"/>
+        <dc:creator xml:lang="en">Charles Seife</dc:creator>
+        <dc:date xml:lang="en">2000</dc:date>
+        <dc:description xml:lang="en">Zero: The Biography of a Dangerous Idea is a non-fiction book by American author and journalist Charles Seife. The book was initially released on February 7, 2000, by Viking.</dc:description>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:subject xml:lang="en">Math</dc:subject>
+        <dc:title xml:lang="en">Zero: The Biography of a Dangerous Idea</dc:title>
+        <dc:type xml:lang="en">Book</dc:type>
+        <rdfs:label xml:lang="en">Zero: The Biography of a Dangerous Idea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rnah3dBwQLc8uB7aBMAHus -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rnah3dBwQLc8uB7aBMAHus">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RgbcsNwrikD9XpzyK8Azpd"/>
+        <dc:creator xml:lang="en">Charles C. Mann</dc:creator>
+        <dc:date xml:lang="en">2005</dc:date>
+        <dc:description xml:lang="en">1491: New Revelations of the Americas Before Columbus is a 2005 non-fiction book by American author and science writer Charles C. Mann about the pre-Columbian Americas.</dc:description>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:subject xml:lang="en">History</dc:subject>
+        <dc:title xml:lang="en">1491: New Revelations of the Americas Before Columbus</dc:title>
+        <dc:type xml:lang="en">Book</dc:type>
+        <rdfs:label xml:lang="en">1491: New Revelations of the Americas Before Columbus</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
